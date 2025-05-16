@@ -1,5 +1,3 @@
-### PhanTich
-
 # Contribution breakdown (%) per member 
 - Đinh Gia Bảo - 11220788 - 12.5%
 - Lê Trọng Hiệp - 11222286 - 12.5%
