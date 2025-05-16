@@ -238,7 +238,6 @@ While both genders engage primarily with the same top categories—Books, Clothi
 - Purchase Concentration and Distribution:
 The marked gap between the top two categories and the remaining ones indicates that consumer purchasing behavior is heavily concentrated. Books and Clothing collectively represent the majority of purchase volumes, while Electronics and Home products, though consistent across genders, account for roughly 30-35% fewer purchases. This disparity points to a focused consumer demand in fewer categories. Electronics and Home categories display similar purchase volumes for both males and females, implying comparable interest levels despite their secondary status. This symmetry suggests these product categories appeal broadly and are less influenced by gender-specific preferences.
 # 8. Churn rate 
-Visualize churn rate
 # Overview of Segments and Churn Rates:
 The data presents the total customers and churned customers across six main segments: New Customers, Loyal Customers, Lost, Champions, Others, and Cannot Lose Them. The churn rates are fairly uniform, ranging from 19.34% to 20.24%. The New Customers segment, with 13,840 customers, has the highest churn rate of over 20.24%, indicating that new customers face the greatest risk of leaving, likely due to initial experience or weak brand engagement. Meanwhile, the Cannot Lose Them segment, with 2,658 customers, has the lowest churn rate at 19.34%, reflecting a prioritized retention group with higher value or stronger loyalty.
 # In-depth churn rate analysis across segments:
