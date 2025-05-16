@@ -1,22 +1,19 @@
 ### PhanTich
 
-Final Project Big Data Analytics
+# Contribution breakdown (%) per member 
+- Đinh Gia Bảo - 11220788 - 12.5%
+- Lê Trọng Hiệp - 11222286 - 12.5%
+- Đào Trọng Hưng - 11222595 - 12.5%
+- Nguyễn Lê Anh Minh - 11224245 - 12.5%
+- Đỗ Sơn Nam - 11224438 - 12.5%
+- Nguyễn Đức Anh - 11220321 - 12.5%
+- Bùi Bảo Quang - 11225416 - 12.5%
+- Phạm Quốc Việt - 11226910 - 12.5%
 
-Đinh Gia Bảo - 11220788
-
-Lê Trọng Hiệp - 11222286
-
-Đào Trọng Hưng - 11222595
-
-Nguyễn Lê Anh Minh - 11224245
-
-Đỗ Sơn Nam - 11224438
-
-Nguyễn Đức Anh - 11220321
-
-Bùi Bảo Quang - 11225416
-
-Phạm Quốc Việt - 11226910
+# Instructions to run the code
+- Run using VScode version 1.100.2.
+- Install python, java version 11, correct hadoop version.
+- Download the data .csv.
 
 ## CUSTOMER SECTIONALIZATION IN E-COMMERCE WITH EDA, RFM MODEL AND K-MEANS CLUSTERING ALGORITHM BY USING PYSPARK IN PYTHON
 
