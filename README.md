@@ -12,7 +12,7 @@
 - Run using VScode version 1.100.2.
 - Install python, java version 11, correct hadoop version.
 - Download the data .csv.
-![alt text](image.png)
+
 ## CUSTOMER SECTIONALIZATION IN E-COMMERCE WITH EDA, RFM MODEL AND K-MEANS CLUSTERING ALGORITHM BY USING PYSPARK IN PYTHON
 
 This project's main goal is to improve consumer segmentation and behaviour analysis by using thorough data analytics methods. The knowledge acquired can then help businesses find new ways to increase income, strengthen marketing efficacy, and foster client loyalty. The study uses K-Means clustering for effective consumer categorisation, RFM (Recency, Frequency, Monetary) analysis, and exploratory data analysis (EDA) to gain first insights and comprehend the properties of the data. PySpark is used to effectively manage data processing and analysis, guaranteeing scalability and excellent performance, because of the dataset's significant quantity and complexity.
