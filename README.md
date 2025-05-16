@@ -179,16 +179,16 @@ The RFM analysis classified customers into groups based on their interaction lev
 
 Overall, the relationship between these segments illustrates a clear progression cycle: from New Customers → Loyal Customers → Champions, as customer engagement deepens. Meanwhile, the Cannot Lose Them and Lost groups highlight potential pain points and risks of customer loss. Understanding these relationships allows businesses to design targeted care and marketing programs that optimize benefits and maximize long-term value.
 
-- +----------------+--------------+------------------+------------------+------------------+
-- |Customer_Segment|customer_count|      avg_monetary|     avg_frequency|       avg_recency|
-- +----------------+--------------+------------------+------------------+------------------+
-- |       Champions|         17573|20785.405167017583| 7.138906276674444|140.59597109201616|
-- |   New Customers|         13840| 7941.732658959538|3.4434971098265894|181.58829479768787|
-- | Loyal Customers|          8326|13313.410521258707| 5.026183041076147| 161.9207302426135|
-- |            Lost|          5348| 5988.236350037397|2.2025056095736724| 736.1243455497382|
-- |Cannot Lose Them|          2658|15876.169676448457| 5.850639578630549| 567.4025583145223|
-- |          Others|          1928|10941.792012448133|               4.0| 613.6244813278008|
-- +----------------+--------------+------------------+------------------+------------------+
+	+----------------+--------------+------------------+------------------+------------------+
+	|Customer_Segment|customer_count|      avg_monetary|     avg_frequency|       avg_recency|
+	+----------------+--------------+------------------+------------------+------------------+
+	|       Champions|         17573|20785.405167017583| 7.138906276674444|140.59597109201616|
+	|   New Customers|         13840| 7941.732658959538|3.4434971098265894|181.58829479768787|
+	| Loyal Customers|          8326|13313.410521258707| 5.026183041076147| 161.9207302426135|
+	|            Lost|          5348| 5988.236350037397|2.2025056095736724| 736.1243455497382|
+	|Cannot Lose Them|          2658|15876.169676448457| 5.850639578630549| 567.4025583145223|
+	|          Others|          1928|10941.792012448133|               4.0| 613.6244813278008|
+	+----------------+--------------+------------------+------------------+------------------+
 
 # 5. K-Means Clustering and Visualize Clusters: 
 
@@ -229,8 +229,7 @@ The chart shows that certain payment methods (e.g., Debit Cards) are underutiliz
 
 # 7. Gender-based Analysis
 Visualize gender preferences 
-
-For Male Customers:
+	For Male Customers:
 The data shows that Books and Clothing dominate male purchasing behavior, each accounting for approximately 37,000 purchases. This near parity suggests a balanced interest in literary materials and apparel within the male demographic. Following these leading categories, Electronics and Home products attract noticeably fewer purchases, with volumes close to 25,000 each. This substantial drop highlights a marked concentration of male consumer spending on Books and Clothing, with comparatively moderate engagement in Electronics and Home goods.
 	For Female Customers:
 Purchasing patterns among females differ slightly in priority. Clothing is the most frequently purchased category, slightly exceeding 38,000 purchases, indicating a strong preference for apparel. Books follow closely but with fewer purchases than Clothing, mirroring male customers’ engagement in this category. As with males, Electronics and Home categories hold a consistent but lower position, each with purchase volumes around 25,000. This reflects steady yet reduced female interest in these product areas compared to the leading categories.
@@ -240,45 +239,48 @@ While both genders engage primarily with the same top categories—Books, Clothi
 The marked gap between the top two categories and the remaining ones indicates that consumer purchasing behavior is heavily concentrated. Books and Clothing collectively represent the majority of purchase volumes, while Electronics and Home products, though consistent across genders, account for roughly 30-35% fewer purchases. This disparity points to a focused consumer demand in fewer categories. Electronics and Home categories display similar purchase volumes for both males and females, implying comparable interest levels despite their secondary status. This symmetry suggests these product categories appeal broadly and are less influenced by gender-specific preferences.
 # 8. Churn rate 
 Visualize churn rate
-
-    Overview of Segments and Churn Rates:
+# Overview of Segments and Churn Rates:
 The data presents the total customers and churned customers across six main segments: New Customers, Loyal Customers, Lost, Champions, Others, and Cannot Lose Them. The churn rates are fairly uniform, ranging from 19.34% to 20.24%. The New Customers segment, with 13,840 customers, has the highest churn rate of over 20.24%, indicating that new customers face the greatest risk of leaving, likely due to initial experience or weak brand engagement. Meanwhile, the Cannot Lose Them segment, with 2,658 customers, has the lowest churn rate at 19.34%, reflecting a prioritized retention group with higher value or stronger loyalty.
-	In-depth churn rate analysis across segments:
+# In-depth churn rate analysis across segments:
 Although Loyal Customers are expected to show the highest loyalty, their churn rate is still around 20.17%, nearly as high as New Customers, signaling concerns over the current retention program effectiveness. The Lost segment, despite its name implying lost customers, also exhibits a churn rate near 20.08%, suggesting overlapping segment definitions or churn measured within a specific timeframe. Champions represent the largest group with 17,573 customers and a churn rate of 19.88%, slightly lower than New and Loyal Customers but still significant, showing that even high-value customers are not fully retained. Others, with 1,928 customers and a churn rate of 19.71%, present a relatively lower churn but with minimal difference compared to Cannot Lose Them.
-	Interpretation of the uniform churn rates:
+# Interpretation of the uniform churn rates:
 The nearly equal churn rates around 20% across segments indicate systemic retention challenges faced by the company. This uniformity implies that churn drivers may stem from common factors such as customer experience, service quality, market competition, or broader socioeconomic influences rather than segment-specific characteristics. A churn rate close to 20% suggests that on average one in five customers leaves during the period analyzed, signaling a high customer attrition risk. The similar churn rates between New and Loyal Customers raise concerns about the effectiveness of converting new customers into loyal ones, highlighting gaps in seamless customer experience or loyalty programs.
 # 9. Seasonal Analysis
-    Monthly Revenue Trends
+# Monthly Revenue Trends
 From January to August, revenue remained relatively stable, fluctuating between 57.3 million and 63.2 million. March marked the highest revenue peak at approximately 63.2 million, indicating a possible successful marketing campaign or seasonal sales boost during that month.
 However, starting in September, there was a significant and continuous decline in revenue. It dropped from around 62.4 million in August to just 45.7 million in November. Although December saw a slight rebound to 46.8 million, it was still well below the earlier part of the year.
 This downward trend in the last quarter (Q4) could indicate declining customer interest, reduced marketing activity, or external factors such as economic changes or seasonality impacting performance.
 
-    Monthly Transaction Count
+# Monthly Transaction Count
 The number of transactions followed a similar pattern to revenue. From January through August, transaction counts stayed consistently high, ranging from 21,000 to 23,000+. March again led with the highest transaction volume at 23,107, reinforcing its strong performance overall.
 In contrast, from September to December, the number of transactions dropped sharply, reaching a low of 16,726 in November. December showed a slight increase, but the level remained significantly lower than the earlier months.
 This decline aligns with the revenue trend and suggests a drop in customer engagement or purchase frequency during the last quarter.
 
 # 10. Advanced Analytics
 Customer Lifetime Value (CLV):
-+-------+-----------------+
-|summary|    Estimated_CLV|
-+-------+-----------------+
-|  count|            47982|
-|   mean|95524.30302902608|
-| stddev|355662.0109466176|
-|    min|   2473.998046875|
-|    max|      3.6330687E7|
-+-------+-----------------+
+
+	+-------+-----------------+
+	|summary|    Estimated_CLV|
+	+-------+-----------------+
+	|  count|            47982|
+	|   mean|95524.30302902608|
+	| stddev|355662.0109466176|
+	|    min|   2473.998046875|
+	|    max|      3.6330687E7|
+	+-------+-----------------+
+ 
 The CLV was calculated using a customer’s average order value multiplied by their purchase frequency and annualized over 12 months. This method gives a forward-looking estimate of how much value each customer brings in a year. The results show a wide range, from as low as around 2,474 to as high as over 36 million. The high standard deviation indicates that most customers have moderate value, while a few contribute significantly more, creating a skewed distribution.
 Top 10% Revenue Contribution:
 Top 10% customers contribute 11.64% of total revenue
 Interestingly, the top 10% of customers contribute only 11.64% of total revenue. This is relatively low, especially compared to industries where the top 10% often drive 30–50% of revenue. It suggests that while the business has some high-value customers, revenue is more evenly spread out. There’s an opportunity here to focus on increasing revenue from the top segment through loyalty programs, premium offers, or exclusive experiences.
 Overall Return Rate:
-+-------------------+-------------------+
-|overall_return_rate|    return_rate_std|
-+-------------------+-------------------+
-| 0.4963391210587942|0.28573203619410803|
-+-------------------+-------------------+
+
+	+-------------------+-------------------+
+	|overall_return_rate|    return_rate_std|
+	+-------------------+-------------------+
+	| 0.4963391210587942|0.28573203619410803|
+	+-------------------+-------------------+
+ 
 The average return rate across all customers is 49.63%, meaning almost half of the purchases are returned. This is a very high figure and could have a serious impact on profitability. A high return rate might indicate issues such as poor product fit, misleading descriptions, or low customer satisfaction. It calls for a closer review of the return process and product-related feedback.
 High Return Behavior:
 Customers with >10% return rate: 43220 (87.01%)
