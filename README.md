@@ -151,14 +151,13 @@ Economic Significance in Customer Segmentation
 
 # 3. Customer Behavior Analysis
 Analyzed data shows that customers fall under two main categories: first time buyers and returning customers. First time buyers constitute only a small portion of the customer distribution, suggesting the business has a steady flow of returning customers. Most customers cluster between three to seven purchases, peaking at four to five transactions. Additionally, the data reveals a declining number of customers as frequency of purchases increases. A small percentage of 3 to 4% of customers make ten or more purchases, constituting the most loyal segment. Customers based on highly differentiated types of behavioral segmentation are divided into groups based on frequency of purchases: low frequency (less than five purchases), mid frequency (five to nine purchases), and hi frequency (ten or more purchases). Mid frequency customers comprise 45% of total customer base, followed closely by low frequency customers at 44%. Although high frequency customers are fewer in number, they tend to provide maximum value, thus making them an important segment for the business. Businesses can identify varying customer range and behavior based on these segments. Loyalty promoting strategies could be implemented for low frequency buyers who are likely to be new or disengaged, while medium frequency buyers represent the core audience who would benefit from retention and upselling efforts.
-
-+----------------+-----+
-|purchase_segment|count|
-+----------------+-----+
-|   Low Frequency|21632|
-|  High Frequency| 1589|
-|Medium Frequency|26452|
-+----------------+-----+
+- +----------------+-----+
+- |purchase_segment|count|
+- +----------------+-----+
+- |   Low Frequency|21632|
+- |  High Frequency| 1589|
+- |Medium Frequency|26452|
+- +----------------+-----+
 
 # 4. RFM Analysis
 RFM Analysis segments customers by evaluating three key metrics: Recency (how recently a customer made a purchase), Frequency (how often they purchase), and Monetary value (how much they spend). Each metric is scored on a scale from 1 to 5 based on percentile thresholds, reflecting the customer’s engagement and value level. By combining these scores, customers are classified into meaningful groups such as Champions, New Customers, Loyal Customers, Lost, Cannot Lose Them, and Others. This segmentation reveals important patterns in customer behavior, allowing businesses to tailor marketing and retention strategies effectively to maximize customer lifetime value and business growth.
@@ -179,16 +178,16 @@ The RFM analysis classified customers into groups based on their interaction lev
 
 Overall, the relationship between these segments illustrates a clear progression cycle: from New Customers → Loyal Customers → Champions, as customer engagement deepens. Meanwhile, the Cannot Lose Them and Lost groups highlight potential pain points and risks of customer loss. Understanding these relationships allows businesses to design targeted care and marketing programs that optimize benefits and maximize long-term value.
 
-+----------------+--------------+------------------+------------------+------------------+
-|Customer_Segment|customer_count|      avg_monetary|     avg_frequency|       avg_recency|
-+----------------+--------------+------------------+------------------+------------------+
-|       Champions|         17573|20785.405167017583| 7.138906276674444|140.59597109201616|
-|   New Customers|         13840| 7941.732658959538|3.4434971098265894|181.58829479768787|
-| Loyal Customers|          8326|13313.410521258707| 5.026183041076147| 161.9207302426135|
-|            Lost|          5348| 5988.236350037397|2.2025056095736724| 736.1243455497382|
-|Cannot Lose Them|          2658|15876.169676448457| 5.850639578630549| 567.4025583145223|
-|          Others|          1928|10941.792012448133|               4.0| 613.6244813278008|
-+----------------+--------------+------------------+------------------+------------------+
+- +----------------+--------------+------------------+------------------+------------------+
+- |Customer_Segment|customer_count|      avg_monetary|     avg_frequency|       avg_recency|
+- +----------------+--------------+------------------+------------------+------------------+
+- |       Champions|         17573|20785.405167017583| 7.138906276674444|140.59597109201616|
+- |   New Customers|         13840| 7941.732658959538|3.4434971098265894|181.58829479768787|
+- | Loyal Customers|          8326|13313.410521258707| 5.026183041076147| 161.9207302426135|
+- |            Lost|          5348| 5988.236350037397|2.2025056095736724| 736.1243455497382|
+- |Cannot Lose Them|          2658|15876.169676448457| 5.850639578630549| 567.4025583145223|
+- |          Others|          1928|10941.792012448133|               4.0| 613.6244813278008|
+- +----------------+--------------+------------------+------------------+------------------+
 
 # 5. K-Means Clustering and Visualize Clusters: 
 
