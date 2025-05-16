@@ -1,12 +1,12 @@
 # Contribution breakdown (%) per member 
-- Đinh Gia Bảo - 11220788 - 12.5%
-- Lê Trọng Hiệp - 11222286 - 12.5%
-- Đào Trọng Hưng - 11222595 - 12.5%
-- Nguyễn Lê Anh Minh - 11224245 - 12.5%
-- Đỗ Sơn Nam - 11224438 - 12.5%
-- Nguyễn Đức Anh - 11220321 - 12.5%
-- Bùi Bảo Quang - 11225416 - 12.5%
-- Phạm Quốc Việt - 11226910 - 12.5%
+- Đinh Gia Bảo - 11220788 - 12.5% - p3 + p4 
+- Lê Trọng Hiệp - 11222286 - 12.5% - p1 + p2 
+- Đào Trọng Hưng - 11222595 - 12.5% - p5 + p6 
+- Nguyễn Lê Anh Minh - 11224245 - 12.5% - Từ đầu -> EDA (ko cần làm EDA) 
+- Đỗ Sơn Nam - 11224438 - 12.5% - Theory  
+- Nguyễn Đức Anh - 11220321 - 12.5% - P9 + p10
+- Bùi Bảo Quang - 11225416 - 12.5% - Conclusion
+- Phạm Quốc Việt - 11226910 - 12.5% - p7 + p8 
 
 # Instructions to run the code
 - Run using VScode version 1.100.2.
