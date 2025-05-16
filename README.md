@@ -228,7 +228,7 @@ The chart might reveal that payment methods correlate with the type of products 
 The chart shows that certain payment methods (e.g., Debit Cards) are underutilized across all age groups, this suggests an opportunity to promote these methods through incentives like discounts or faster checkout processes. Similarly, if older age groups (56+) have low adoption of digital payments like PayPal, the company could offer educational campaigns or tutorials to build trust and familiarity with these methods.
 
 # 7. Gender-based Analysis
-# Visualize gender preferences 
+## Gender preferences 
 - For Male Customers:
 The data shows that Books and Clothing dominate male purchasing behavior, each accounting for approximately 37,000 purchases. This near parity suggests a balanced interest in literary materials and apparel within the male demographic. Following these leading categories, Electronics and Home products attract noticeably fewer purchases, with volumes close to 25,000 each. This substantial drop highlights a marked concentration of male consumer spending on Books and Clothing, with comparatively moderate engagement in Electronics and Home goods.
 - For Female Customers:
