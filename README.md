@@ -151,6 +151,7 @@ Economic Significance in Customer Segmentation
 
 # 3. Customer Behavior Analysis
 Analyzed data shows that customers fall under two main categories: first time buyers and returning customers. First time buyers constitute only a small portion of the customer distribution, suggesting the business has a steady flow of returning customers. Most customers cluster between three to seven purchases, peaking at four to five transactions. Additionally, the data reveals a declining number of customers as frequency of purchases increases. A small percentage of 3 to 4% of customers make ten or more purchases, constituting the most loyal segment. Customers based on highly differentiated types of behavioral segmentation are divided into groups based on frequency of purchases: low frequency (less than five purchases), mid frequency (five to nine purchases), and hi frequency (ten or more purchases). Mid frequency customers comprise 45% of total customer base, followed closely by low frequency customers at 44%. Although high frequency customers are fewer in number, they tend to provide maximum value, thus making them an important segment for the business. Businesses can identify varying customer range and behavior based on these segments. Loyalty promoting strategies could be implemented for low frequency buyers who are likely to be new or disengaged, while medium frequency buyers represent the core audience who would benefit from retention and upselling efforts.
+
 	+----------------+-----+
 	|purchase_segment|count|
 	+----------------+-----+
