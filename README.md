@@ -228,14 +228,14 @@ The chart might reveal that payment methods correlate with the type of products 
 The chart shows that certain payment methods (e.g., Debit Cards) are underutilized across all age groups, this suggests an opportunity to promote these methods through incentives like discounts or faster checkout processes. Similarly, if older age groups (56+) have low adoption of digital payments like PayPal, the company could offer educational campaigns or tutorials to build trust and familiarity with these methods.
 
 # 7. Gender-based Analysis
-Visualize gender preferences 
-	For Male Customers:
+# Visualize gender preferences 
+- For Male Customers:
 The data shows that Books and Clothing dominate male purchasing behavior, each accounting for approximately 37,000 purchases. This near parity suggests a balanced interest in literary materials and apparel within the male demographic. Following these leading categories, Electronics and Home products attract noticeably fewer purchases, with volumes close to 25,000 each. This substantial drop highlights a marked concentration of male consumer spending on Books and Clothing, with comparatively moderate engagement in Electronics and Home goods.
-	For Female Customers:
+- For Female Customers:
 Purchasing patterns among females differ slightly in priority. Clothing is the most frequently purchased category, slightly exceeding 38,000 purchases, indicating a strong preference for apparel. Books follow closely but with fewer purchases than Clothing, mirroring male customers’ engagement in this category. As with males, Electronics and Home categories hold a consistent but lower position, each with purchase volumes around 25,000. This reflects steady yet reduced female interest in these product areas compared to the leading categories.
-	Comparative Insights and Gender Differences:
+- Comparative Insights and Gender Differences:
 While both genders engage primarily with the same top categories—Books, Clothing, Electronics, and Home—their relative priorities differ. Males tend to distribute their purchases almost evenly between Books and Clothing, suggesting a dual focus on reading and fashion. In contrast, females demonstrate a clear preference for Clothing over Books, highlighting fashion’s higher importance in their purchasing decisions.
-	Purchase Concentration and Distribution:
+- Purchase Concentration and Distribution:
 The marked gap between the top two categories and the remaining ones indicates that consumer purchasing behavior is heavily concentrated. Books and Clothing collectively represent the majority of purchase volumes, while Electronics and Home products, though consistent across genders, account for roughly 30-35% fewer purchases. This disparity points to a focused consumer demand in fewer categories. Electronics and Home categories display similar purchase volumes for both males and females, implying comparable interest levels despite their secondary status. This symmetry suggests these product categories appeal broadly and are less influenced by gender-specific preferences.
 # 8. Churn rate 
 Visualize churn rate
